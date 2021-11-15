@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Ejercicio Formulario</title>
+    <meta charset="utf-8">
+    
+</head>
+<body>
+    <h1>EJERCICIO 3 FORMULARIO</h1>
+    
+    <form name="form" action="pagina2.html" method="get">
+        <fieldset >
+            <legend>Formulario de registro - Mi web</legend>
+            <label>Nombre:
+            <input type="text" name="nombre" maxlength="50">
+            </label>
+     
+            <br>
+      
+            <label>Apellidos:
+            <input type="text" name="apellidos" maxlength="50">
+            </label>
+            <br>
+    
+            <label>Sexo: 
+            <input type="radio" name="sexo" value="hombre">hombre
+            </label>
+            <label>
+            <input type="radio" name="sexo" value="mujer">mujer 
+            </label>
+    
+            <br>
+    
+            <label>e-mail:
+            <input type="email" name="email">
+            </label>
+    
+            <br>
+
+
+            <label>Rol: 
+                <select name="pais">
+                <option value="">Elige una opcion</option>
+                <option value="ES">estudiante</option>
+                <option value="PR">profesor</option>
+                <option value="AY">ayudante</option>
+                <option value="AD">administrador</option>
+                </select>
+            </label>
+    
+            <br>
+        </fieldset>
+        <fieldset>
+            <legend>Condiciones</legend>
+            
+            <label>
+            <input type="checkbox" checked name="informacion" value="info">
+            Deseo recibir informacion sobre novedades y ofertas
+            </label>  
+        
+            <br>
+        
+            
+            <label>
+            <input type="checkbox"  name="condiciones" 
+            value="aceptar">
+            Declaro haber leido y aceptar las condiciones 
+            generales del programa y la normativa  sobre proteccion de datos
+            </label>  
+        
+            <br>
+    
+            <input type="submit" value="Enviar" >
+            <input type="reset" value="Borrar">
+    </fieldset>
+  </form>
+
+</body>
+</html>
